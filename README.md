@@ -12,7 +12,7 @@ Based on repository contents, this is not a source project in the modern sense (
   - [ ] GitHub Pages (fastest if already on GitHub)
   - [ ] Cloudflare Pages (good for managed DNS/workflows)
 - [ ] Publish from repository root (no build command).
-- [ ] Open the public URL and click-test top navigation and key pages.
+- [ ] Open the public URL and click-test top navigation, `news.html`, and multiple `/news/<slug>/` post pages.
 - [ ] Share URL as temporary archive/staging reference (not final CMS).
 - [ ] Continue WordPress migration work in parallel.
 
@@ -35,16 +35,29 @@ Based on repository contents, this is not a source project in the modern sense (
 Top-level:
 
 - `*.html` — 30 static pages (for example: `index.html`, `our-projects.html`, `news.html`, `membership.html`, `members-only.html`, `contact-us.html`)
+- `news/` — static News archive pages
+  - `news/index.html` (news archive index)
+  - `news/<slug>/index.html` — 81 generated post pages
 - `files/` — local CSS/JS/theme resources
   - `files/main_style.css`
   - `files/theme/files/manifest.json` (theme manifest; Edison theme)
+- `assets/` — mirrored vendor CSS/JS/font assets used by archived pages
 - `uploads/` — uploaded media and documents (largest content area)
+- `harvest/news/` — migration artifacts for WordPress
+  - `harvest/news/news_posts.csv`
+  - `harvest/news/wordpress_news_import.csv`
+  - `harvest/news/wordpress_media_manifest.csv`
+  - `harvest/news/news_posts.json`
+  - `harvest/news/images/`
 - `apps/` — legacy app artifacts (includes Flash `.swf`)
 
 Approximate size:
 
-- Repository: ~608 MB
-- `uploads/`: ~349 MB
+- `uploads/`: ~346 MB
+- `assets/`: ~6.9 MB
+- `files/`: ~286 KB
+- `news/`: ~636 KB
+- `harvest/news/`: ~65.8 MB
 
 ## Local preview
 
