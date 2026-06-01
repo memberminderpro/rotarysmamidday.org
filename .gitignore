@@ -51,6 +51,7 @@ $RECYCLE.BIN/
 *.transcript
 
 # Common directories used by AI/dev assistants
+.abacusai/
 .ai/
 .ai-cache/
 .ai-temp/
