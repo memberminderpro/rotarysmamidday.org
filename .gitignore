@@ -1,0 +1,98 @@
+# ==============================
+# OS-specific files
+# ==============================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==============================
+# Editor / IDE metadata
+# ==============================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Cursor
+.cursor/
+
+# ==============================
+# AI coding assistant/tool artifacts
+# (Instruction files are explicitly preserved)
+# ==============================
+
+# Generic logs, traces, transcripts, prompts, temp sessions
+*.agent.log
+*.agent.json
+*.agent.jsonl
+*.agent.trace
+*.promptlog
+*.session
+*.transcript
+
+# Common directories used by AI/dev assistants
+.ai/
+.ai-cache/
+.ai-temp/
+.agent/
+.agents/
+.automation/
+.llm/
+.promptfoo/
+
+# Claude / Anthropic local artifacts
+.claude/
+
+# Aider local artifacts
+.aider*
+
+# Continue local artifacts
+.continue/
+
+# GitHub Copilot local artifacts
+.copilot/
+
+# Codeium / Windsurf local artifacts
+.codeium/
+.windsurf/
+
+# Preserve instruction/config files intended for version control
+!AGENTS.md
+!**/AGENTS.md
+!CLAUDE.md
+!**/CLAUDE.md
+!.cursorrules
+!**/.cursorrules
+!.cursor/rules/
+!.cursor/rules/**
+!.github/copilot-instructions.md
+
+# ==============================
+# Misc temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
