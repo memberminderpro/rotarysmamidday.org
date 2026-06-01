@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/regular.eot'); /* IE9 Compat Modes */
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/regular.woff') format('woff'), /* Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bold.eot'); /* IE9 Compat Modes */
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bold.woff') format('woff'), /* Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/italic.eot'); /* IE9 Compat Modes */
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/italic.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/italic.woff') format('woff'), /* Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bolditalic.eot'); /* IE9 Compat Modes */
+  src: url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bolditalic.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bolditalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bolditalic.woff') format('woff'), /* Modern Browsers */
+       url('../../../../fonts/cdn2.editmysite.com/fonts/Roboto_Mono/bolditalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
