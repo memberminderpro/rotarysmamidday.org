@@ -4,6 +4,18 @@ This repository contains a **static archive of a Weebly website** for the **Midd
 
 Based on repository contents, this is not a source project in the modern sense (no build system, no app framework). It is a captured/exported website snapshot composed mostly of HTML pages plus uploaded media and Weebly theme assets.
 
+## Quick deploy checklist (non-technical)
+
+- [ ] Confirm `index.html` loads correctly locally first.
+- [ ] Push repository to GitHub.
+- [ ] Choose one static host:
+  - [ ] GitHub Pages (fastest if already on GitHub)
+  - [ ] Cloudflare Pages (good for managed DNS/workflows)
+- [ ] Publish from repository root (no build command).
+- [ ] Open the public URL and click-test top navigation and key pages.
+- [ ] Share URL as temporary archive/staging reference (not final CMS).
+- [ ] Continue WordPress migration work in parallel.
+
 ## What this repository is
 
 - A legacy, static website snapshot intended for preservation, review, and possible migration.
@@ -45,6 +57,33 @@ python3 -m http.server 8000
 Then open:
 
 - `http://localhost:8000/index.html`
+
+## Static hosting option (pre-WordPress staging)
+
+Yes. In its current offline-localized state, this archive can be hosted on static platforms such as GitHub Pages or Cloudflare Pages as a temporary staging/reference site before WordPress rebuild.
+
+### Option A: GitHub Pages
+
+1. Push this repository to GitHub.
+2. In repository settings, enable **Pages** and deploy from:
+   - Branch: `main` (or your default branch)
+   - Folder: `/ (root)`
+3. Wait for deployment, then open the provided `*.github.io` URL.
+
+### Option B: Cloudflare Pages
+
+1. Connect this GitHub repository to Cloudflare Pages.
+2. Create a new Pages project with:
+   - Framework preset: **None**
+   - Build command: *(leave empty)*
+   - Build output directory: `/`
+3. Deploy and use the generated `*.pages.dev` URL.
+
+### Staging caveats
+
+- This is static archival hosting only, not a production CMS.
+- Dynamic functions from legacy Weebly (membership, server-side forms, account flows) are non-functional in static hosting.
+- External embeds were converted for offline-safe behavior and may show placeholders rather than live remote content.
 
 ## Important limitations
 
